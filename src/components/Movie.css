@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+img {
+    width: 60%;
+    margin-bottom: 2.5%;
+    box-shadow: 0 5px 10px gray;
+}
+.app {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}   
+.movie-card {
+    box-shadow: 0 10px 30px gray;
+    padding: 2%;
+    margin: 2%;
+    width: 60%;
+    text-align: center;
+    font-family: monospace;
+    border-radius: 10px;
+}
+.movie-genre, .movie-starring {
+    font-weight:bolder;
+    font-size: larger;
+    font-style: italic;
+}
